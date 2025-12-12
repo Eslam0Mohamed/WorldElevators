@@ -1,6 +1,6 @@
-import serviceOne from "../assets/services/Elevator-Maintainance.png";
-import serviceTwo from "../assets/services/Elevator-Equipment-Delivery.png";
-import serviceThree from "../assets/services/Elevator-Consultant.png";
+import serviceOne from "../assets/services/Elevator-Maintainance.webp";
+import serviceTwo from "../assets/services/Elevator-Equipment-Delivery.webp";
+import serviceThree from "../assets/services/Elevator-Consultant.webp";
 
 export default function Services() {
     return <>
@@ -15,21 +15,21 @@ export default function Services() {
                 </div>
                 <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10" dir="rtl">
                     <div className="card rounded-2xl overflow-hidden" >
-                        <img src={serviceTwo} alt="توريد المصاعد الكهربائيه" />
+                        <img src={serviceTwo} alt="توريد المصاعد الكهربائيه"   loading ="lazy" />
                         <div className="card-text px-3 py-4 bg-white">
                             <h3 className="text-2xl text-black font-semibold my-4">توريد المصاعد الكهربائيه </h3>
                             <p className="text-gray-600 ">نوفّر حلول توريد متكاملة للمصاعد الكهربائية بأنواعها، مع التزام كامل بأعلى معايير الجودة والسلامة. نضمن لكم اختيار الأنظمة المناسبة لطبيعة المبنى واحتياجات الاستخدام لضمان أداء مستقر وطويل الأمد.</p>
                         </div>
                     </div>
                                         <div className="card rounded-2xl overflow-hidden ">
-                        <img src={serviceOne} alt="تركيب المصاعد الكهربائيه" className=""/>
+                        <img src={serviceOne} alt="تركيب المصاعد الكهربائيه" className=""  loading ="lazy" />
                         <div className="card-text px-3 py-4 bg-white">
                             <h3 className="text-2xl text-black font-semibold my-4">تركيب المصاعد الكهربائيه </h3>
                             <p className="text-gray-600 ">يقوم فريقنا المتخصص بتنفيذ أعمال تركيب المصاعد بدقة وكفاءة عالية، بداية من تجهيز الموقع وحتى التسليم النهائي. نلتزم بتطبيق أفضل الممارسات الهندسية لضمان تشغيل آمن وسلس للمصعد في جميع الظروف.</p>
                         </div>
                     </div>
                                         <div className="card rounded-2xl overflow-hidden ">
-                        <img src={serviceThree} alt="تقديم الاستشارات الفنيه" />
+                        <img src={serviceThree} alt="تقديم الاستشارات الفنيه"   loading ="lazy" />
                         <div className="card-text px-3 py-4 bg-white">
                             <h3 className="text-2xl text-black font-semibold my-4"> تقديم الاستشارات الفنيه  </h3>
                             <p className="text-gray-600 ">نقدّم خدمات استشارية فنية تساعدكم على اتخاذ القرارات الصحيحة فيما يتعلق بتصميم، اختيار، وتطوير أنظمة المصاعد. نعتمد على خبراتنا الفنية لتقديم حلول عملية تناسب ميزانيتكم واحتياجات مشروعكم.</p>

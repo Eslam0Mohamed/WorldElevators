@@ -29,3 +29,9 @@ margin-inline: auto;
     border-radius: 50%;
     transform:translateY(-50%)
 }
+/* .home {
+  background-image: url('/home-background.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */

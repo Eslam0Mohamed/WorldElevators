@@ -51,6 +51,11 @@ export default function Contact() {
                         </ul>
                     </div>
                 </div>
+            <div className="fixed bottom-10 right-10">
+                <a href="https://wa.me/201091269235" target="_blank">
+                <FontAwesomeIcon icon={faWhatsapp} className="text-4xl text-green-400"/>
+                </a>
+            </div>
             </div>
         </section>
     </>
