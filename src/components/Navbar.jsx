@@ -6,8 +6,6 @@ import { faBars,faXmark } from "@fortawesome/free-solid-svg-icons";
 export default function Navbar(){
  
  const [isOpen,setIsOpen] = useState(false)
- console.log(isOpen);
- 
  
  return <>
     <nav className="bg-violet-950 text-white text-xl py-2 px-3 shadow-lg fixed left-0 right-0 z-50 ">
