@@ -10,11 +10,13 @@ function App() {
 
   return <>
 <Navbar></Navbar>
+<main id="main-content" role="main">
 <Home></Home>
 <About></About>
 <Services></Services>
 <Gallery></Gallery>
 <Contact></Contact>
+</main>
 <Footer></Footer>
     </>
   

@@ -1,6 +1,6 @@
 export default function Footer(){
     return <>
-    <footer className="bg-violet-900 text-gray-200 " dir="rtl">
+    <footer className="bg-violet-900 text-gray-200 " dir="rtl" role="contentinfo">
   <div className="container py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 
     {/* About */}
@@ -13,22 +13,22 @@ export default function Footer(){
     </div>
     <div>
       <h4 className="text-lg font-semibold mb-4 text-white">روابط سريعة</h4>
-      <ul className="space-y-2 text-sm">
-        <li><a href="#home" className="hover:text-violet-300">الرئيسية</a></li>
-        <li><a href="#services" className="hover:text-violet-300">خدماتنا</a></li>
-        <li><a href="#gallery" className="hover:text-violet-300">أعمالنا</a></li>
-        <li><a href="#contact" className="hover:text-violet-300">تواصل معنا</a></li>
+      <ul className="space-y-2 text-sm" role="list">
+        <li role="listitem"><a href="#home" className="hover:text-violet-300">الرئيسية</a></li>
+        <li role="listitem"><a href="#services" className="hover:text-violet-300">خدماتنا</a></li>
+        <li role="listitem"><a href="#gallery" className="hover:text-violet-300">أعمالنا</a></li>
+        <li role="listitem"><a href="#contact" className="hover:text-violet-300">تواصل معنا</a></li>
       </ul>
     </div>
     <div>
       <h4 className="text-lg font-semibold mb-4 text-white">تواصل معنا</h4>
-      <ul className="space-y-3 text-sm">
-        <li> 01091269235</li>
-        <li> سوهاج – شارع الجمهورية - بجوار هايبر زادك </li>
-        <li>سوهاج الجديده - مول تريندي - خلف بنك مصر</li>
-        <li>من السبت الي الخميس</li>
-        <li> من 9 صباحًا إلى 7:30 مساء</li>
-        <li>
+      <ul className="space-y-3 text-sm" role="list">
+        <li role="listitem"> 01091269235</li>
+        <li role="listitem"> سوهاج – شارع الجمهورية - بجوار هايبر زادك </li>
+        <li role="listitem">سوهاج الجديده - مول تريندي - خلف بنك مصر</li>
+        <li role="listitem">من السبت الي الخميس</li>
+        <li role="listitem"> من 9 صباحًا إلى 7:30 مساء</li>
+        <li role="listitem">
           <a
             href="https://wa.me/201091269235"
             className=" "
